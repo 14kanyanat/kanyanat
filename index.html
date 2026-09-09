@@ -1,89 +1,160 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>คณิตศาสตร์ (Math)</title>
+
 <style>
-*{
-    box-sizing: border-bpx;
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.box{width:1024px;margin:0 auto;box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
-header{
-background-image:url(images/Header.png);
-height:500px;
+
+body {
+    font-family: Arial, "Noto Sans Thai", sans-serif;
+    background-color: #ffffff;
 }
-nav{background-color:red;height:400px;flex:1}
-article{background-color:#F5EED8;
-    padding:10px;
-    flex:400px;
+
+.box {
+    width: 1024px;
+    margin: 0 auto;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
-footer{
-    background-color:pink;
-    padding:25px;
-    text-align:center;
-    color:#eee;
+
+header {
+    background-image: url("images/Header.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
 }
-section{display:flex;}
-a:link{
-    color:green;
-    text-decoration:none;
-    background-color:cyan;
-    display:block;
-    width:100%;
-    padding10px;
+
+nav {
+    background-color: red;
+    width: 220px;
+    min-height: 400px;
 }
-a:visited{
-    color:pink;
-    text-decoration:none;
-    backgroundcolor:transparent;
+
+article {
+    background-color: #f5eed8;
+    padding: 20px;
+    flex: 1;
+    min-height: 400px;
 }
-a:hover{
-    color:yellow;
-    text-decoration:none;
-    background-color:violet;
+
+footer {
+    background-color: pink;
+    padding: 25px;
+    text-align: center;
+    color: #eee;
 }
-a:active{
-    color:blue;
-    text-decoration:none;
-    background-color:transparent;
+
+section {
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+a:link,
+a:visited {
+    color: green;
+    text-decoration: none;
+    background-color: cyan;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: none;
+    background-color: violet;
+}
+
+a:active {
+    color: blue;
+    background-color: transparent;
+}
+
+article img {
+    width: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+article p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin-bottom: 15px;
 }
 </style>
-<meta charset="utf-8">
-<title>คณิตศาสตร์ (math)</title>
 </head>
+
 <body>
+
 <div class="box">
+
 <header></header>
+
 <section>
-<nav><ul style="list-style-type:none">
+
+<nav>
+<ul>
+
 <li><a href="index.html">พื้นฐานคณิตศาสตร์</a></li>
 <li><a href="page2.html">การบวก (+)</a></li>
 <li><a href="page3.html">การลบ (-)</a></li>
 <li><a href="page4.html">การคูณ (×)</a></li>
 <li><a href="page5.html">การหาร (÷)</a></li>
+
 </ul>
 </nav>
+
 <article>
+
 <h1>พื้นฐานคณิตศาสตร์</h1>
-<img src='images/p1.jpg' style="width:250px;border-radius:50%;display: block;margin:auto; width:250px"></img>
-<p>คณิตศาสตร์ คือ วิชาที่ศึกษาเกี่ยวกับจำนวน ตัวเลข รูปร่าง ขนาด ปริมาณ รูปแบบ ความสัมพันธ์ และการคำนวณต่าง ๆ โดยใช้หลักเหตุผลและวิธีการอย่างเป็นระบบ คณิตศาสตร์ไม่ได้มีเพียงการบวก ลบ คูณ หารเท่านั้น แต่ยังรวมถึงเรื่องต่าง ๆ เช่น สมการ เศษส่วน ทศนิยม ร้อยละ เรขาคณิต สถิติ ความน่าจะเป็น และพีชคณิต คณิตศาสตร์ช่วยให้เราสามารถคิดวิเคราะห์ แก้ปัญหา และหาคำตอบได้อย่างถูกต้องและมีเหตุผล</p>
 
-<p>คณิตศาสตร์เป็นสิ่งที่อยู่ใกล้ตัวเราและสามารถพบได้ในชีวิตประจำวัน เช่น การคำนวณเงิน การซื้อของ การทอนเงิน การดูเวลา การวัดระยะทาง การคำนวณส่วนลด การแบ่งสิ่งของ รวมถึงการวางแผนค่าใช้จ่าย นอกจากนี้ยังมีความสำคัญต่อการเรียนในวิชาอื่น ๆ เช่น วิทยาศาสตร์ เทคโนโลยี เศรษฐศาสตร์ และวิศวกรรม เพราะหลายวิชาต้องใช้การคำนวณและการวิเคราะห์ทางคณิตศาสตร์</p>
+<img src="images/p1.jpg" alt="พื้นฐานคณิตศาสตร์">
 
-<p>คณิตศาสตร์ยังช่วยฝึกทักษะการคิดอย่างเป็นขั้นตอน เมื่อพบปัญหา เราสามารถนำความรู้ทางคณิตศาสตร์มาใช้วิเคราะห์ข้อมูล หาวิธีแก้ปัญหา และตรวจสอบว่าคำตอบที่ได้ถูกต้องหรือไม่ การเรียนคณิตศาสตร์จึงไม่ได้มีเป้าหมายเพียงเพื่อให้คำนวณเก่งเท่านั้น แต่ยังช่วยพัฒนาความคิดอย่างมีเหตุผล รอบคอบ และเป็นระบบ</p>
+<p>
+คณิตศาสตร์ คือ วิชาที่ศึกษาเกี่ยวกับจำนวน ตัวเลข รูปร่าง ขนาด ปริมาณ รูปแบบ ความสัมพันธ์ และการคำนวณต่าง ๆ โดยใช้หลักเหตุผลและวิธีการอย่างเป็นระบบ คณิตศาสตร์ไม่ได้มีเพียงการบวก ลบ คูณ หารเท่านั้น แต่ยังรวมถึงเรื่องต่าง ๆ เช่น สมการ เศษส่วน ทศนิยม ร้อยละ เรขาคณิต สถิติ ความน่าจะเป็น และพีชคณิต
+</p>
+
+<p>
+คณิตศาสตร์เป็นสิ่งที่อยู่ใกล้ตัวเราและสามารถพบได้ในชีวิตประจำวัน เช่น การคำนวณเงิน การซื้อของ การทอนเงิน การดูเวลา การวัดระยะทาง การคำนวณส่วนลด การแบ่งสิ่งของ รวมถึงการวางแผนค่าใช้จ่าย
+</p>
+
+<p>
+คณิตศาสตร์ยังช่วยฝึกทักษะการคิดอย่างเป็นขั้นตอน เมื่อพบปัญหา เราสามารถนำความรู้ทางคณิตศาสตร์มาใช้วิเคราะห์ข้อมูล หาวิธีแก้ปัญหา และตรวจสอบว่าคำตอบที่ได้ถูกต้องหรือไม่
+</p>
 
 <h1>ดังนั้น</h1>
-<p>คณิตศาสตร์จึงเป็นวิชาพื้นฐานที่มีความสำคัญต่อการดำเนินชีวิตและการเรียนรู้ เพราะช่วยให้เราจัดการกับตัวเลขและข้อมูลต่าง ๆ ได้อย่างถูกต้อง รวมทั้งช่วยพัฒนาทักษะการคิด วิเคราะห์ และแก้ไขปัญหา ซึ่งสามารถนำไปประยุกต์ใช้ได้ทั้งในชีวิตประจำวัน การศึกษา และการทำงานในอนาคต</p>
+
+<p>
+คณิตศาสตร์จึงเป็นวิชาพื้นฐานที่มีความสำคัญต่อการดำเนินชีวิตและการเรียนรู้ เพราะช่วยให้เราจัดการกับตัวเลขและข้อมูลต่าง ๆ ได้อย่างถูกต้อง รวมทั้งช่วยพัฒนาทักษะการคิด วิเคราะห์ และแก้ไขปัญหา
+</p>
+
+</article>
 
 </section>
-<footer><p>จัดทำโดยนางสาวกัญญาณัฐ บุญเกิด เลขที่14<br>โรงเรียนรัตนราษฎร์บำรุง</p> </footer>
+
+<footer>
+<p>
+จัดทำโดยนางสาวกัญญาณัฐ บุญเกิด เลขที่ 14<br>
+โรงเรียนรัตนราษฎร์บำรุง
+</p>
+</footer>
+
 </div>
-    <script>
-        <html>
-function showPage(id,button){
-  document.querySelectorAll('.page').forEach(p=>p.classList.remove('show'));
-  document.getElementById(id).classList.add('show');
-  document.querySelectorAll('.menu').forEach(b=>b.classList.remove('active'));
-  button.classList.add('active');
+
 </body>
 </html>
