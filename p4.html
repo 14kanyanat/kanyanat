@@ -1,92 +1,42 @@
-<!DOCTYPE html>
-<html lang="th">
-<head>
-<style>
-*{
-    box-sizing: border-bpx;
-    margin: 0;
-    padding: 0;
-}
-.box{width:1024px;margin:0 auto;box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
-header{
-background-image:url(images/Header.jpg);
-height:500px;
-}
-nav{background-color:red;height:400px;flex:1}
-article{background-color:#fce4ec;
-    padding:10px;
-    flex:400px;
-}
-footer{
-    background-color:pink;
-    padding:25px;
-    text-align:center;
-    color:#eee;
-}
-section{display:flex;}
-a:link{
-    color:green;
-    text-decoration:none;
-    background-color:cyan;
-    display:block;
-    width:100%;
-    padding10px;
-}
-a:visited{
-    color:pink;
-    text-decoration:none;
-    backgroundcolor:transparent;
-}
-a:hover{
-    color:yellow;
-    text-decoration:none;
-    background-color:violet;
-}
-a:active{
-    color:blue;
-    text-decoration:none;
-    background-color:transparent;
-}
-</style>
-<meta charset="utf-8">
-<title>คณิตศาสตร์ (math)</title>
-</head>
-<body>
-<div class="box">
-<header></header>
-<section>
-<nav><ul style="list-style-type:none">
-<li><a href="index.html">พื้นฐานคณิตศาสตร์</a></li>
-<li><a href="page2.html">การบวก (+)</a></li>
-<li><a href="page3.html">การลบ (-)</a></li>
-<li><a href="page4.html">การคูณ (×)</a></li>
-<li><a href="page5.html">การหาร (÷)</a></li</ul>
-</ul>
-</nav>
 <article>
-<h4>การคูณ (×)</h4>
-<img src='images/p4.jpg' style="width:250px;border-radius:50%;display: block;margin:auto; width:250px"></img>
+
+<h2>การคูณ (×)</h2>
+
+<img src="images/p4.jpg" alt="การคูณ">
+
 <p>การคูณ</p>
 
-<p>การคูณเป็นการดำเนินการทางคณิตศาสตร์ที่ใช้สำหรับ การนำจำนวนเดียวกันมาบวกซ้ำกันหลายครั้ง เพื่อช่วยให้การคำนวณทำได้รวดเร็วและสะดวกมากขึ้น การคูณเป็นพื้นฐานสำคัญของคณิตศาสตร์ และสามารถนำไปใช้ในชีวิตประจำวันได้ เช่น การคำนวณจำนวนสิ่งของที่มีเป็นกลุ่ม การคำนวณราคาสินค้าหลายชิ้น การหาจำนวนทั้งหมด หรือการคำนวณระยะทางและเวลา</p>
-
-<p>ในการคูณ เราใช้เครื่องหมาย (×) เป็นสัญลักษณ์แทนการคูณ และใช้เครื่องหมาย (=) เพื่อแสดงว่าค่าทั้งสองด้านเท่ากัน จำนวนที่ได้หลังจากการคูณเรียกว่า (ผลคูณ)</p>
-
-<p>ตัวอย่าง</p>
-<p>เช่น (4 × 3 = 12) หมายความว่า นำจำนวน 4 มาบวกกัน 3 ครั้ง หรือ (4 + 4 + 4 = 12) ดังนั้น 12 จึงเป็นผลคูณของ 4 และ 3</p>
-
-<p>การคูณสามารถทำได้กับจำนวนหลายประเภท เช่น จำนวนเต็ม จำนวนทศนิยม และเศษส่วน โดยอาจมีวิธีการคำนวณที่แตกต่างกันตามชนิดของจำนวน การเรียนรู้การคูณจึงมีความสำคัญ เพราะช่วยให้สามารถคำนวณจำนวนที่มากขึ้นได้อย่างรวดเร็ว และเป็นพื้นฐานสำหรับการเรียนรู้เรื่องอื่น ๆ เช่น การหาร อัตราส่วน ร้อยละ และการแก้โจทย์ปัญหาทางคณิตศาสตร์
+<p>
+การคูณเป็นการดำเนินการทางคณิตศาสตร์ที่ใช้สำหรับการนำจำนวนเดียวกันมาบวกซ้ำกันหลายครั้ง เพื่อช่วยให้การคำนวณทำได้รวดเร็วและสะดวกมากขึ้น
 </p>
 
-</section>
-<footer><p>จัดทำโดยนางสาวกัญญาณัฐ บุญเกิด เลขที่14<br>โรงเรียนรัตนราษฎร์บำรุง</p> </footer>
-</div>   
-    <html>
-        </html>
-function showPage(id,button){
-  document.querySelectorAll('.page').forEach(p=>p.classList.remove('show'));
-  document.getElementById(id).classList.add('show');
-  document.querySelectorAll('.menu').forEach(b=>b.classList.remove('active'));
-  button.classList.add('active');
+<p>
+ในการคูณ เราใช้เครื่องหมาย (×) เป็นสัญลักษณ์แทนการคูณ และใช้เครื่องหมาย (=) เพื่อแสดงว่าค่าทั้งสองด้านเท่ากัน จำนวนที่ได้หลังจากการคูณเรียกว่า ผลคูณ
+</p>
+
+<p>ตัวอย่างเช่น</p>
+
+<p>
+4 × 3 = 12
+</p>
+
+<p>
+หมายความว่า นำจำนวน 4 มาบวกกัน 3 ครั้ง หรือ 4 + 4 + 4 = 12 ดังนั้น 12 จึงเป็นผลคูณของ 4 และ 3
+</p>
+
+<p>
+การคูณสามารถทำได้กับจำนวนหลายประเภท เช่น จำนวนเต็ม จำนวนทศนิยม และเศษส่วน และเป็นพื้นฐานสำหรับการเรียนรู้เรื่องอื่น ๆ เช่น การหาร อัตราส่วน ร้อยละ และการแก้โจทย์ปัญหาทางคณิตศาสตร์
+</p>
+
+</article>
+<footer>
+<p>
+จัดทำโดยนางสาวกัญญาณัฐ บุญเกิด เลขที่ 14<br>
+โรงเรียนรัตนราษฎร์บำรุง
+</p>
+</footer>
+
+</div>
+
 </body>
 </html>
